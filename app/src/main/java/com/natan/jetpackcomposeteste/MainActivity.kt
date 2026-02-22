@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -41,23 +42,40 @@ class MainActivity : ComponentActivity() {
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
 
+
+
             Surface(Modifier.size(100.dp),
-                color = Color.Red
+                color = Color.Gray
             ) { }
 
-            Surface(Modifier.size(100.dp),
-                color = Color.Yellow
-            ) {
+
+            Row() {
+                Surface(Modifier.size(100.dp),
+                    color = Color.Red
+                ) { }
+
+                Surface(Modifier.size(100.dp),
+                    color = Color.Yellow
+                ) {
+
+                }
+
+                Surface(Modifier.size(100.dp),
+                    color = Color.Black
+                ) {
+
+                }
+
 
             }
+
+
 
             Surface(Modifier.size(100.dp),
                 color = Color.Magenta
             ) { }
 
-            Surface(Modifier.size(100.dp),
-                color = Color.Blue
-            ) { }
+
 
         }
     }

@@ -36,3 +36,8 @@
     <li>A coluna seria o equivalente do linear layout do xml.</li>
     <li>Com as linhas os elementos que vão sendo adicionados vão sendo organizados um do lado dos outros.</li>
 </ol>
+
+## Scaffold
+<ol>
+    <li>Scaffold é um compponete que vai nos ajudar com uma estrutura pronto para criação de um layout responsivo.</li>
+</ol>
