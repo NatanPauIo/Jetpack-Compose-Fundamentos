@@ -44,3 +44,14 @@
     <li>A unidade de medida usada para texto é sp.</li>
     <li>É necessário que na chaves do scaffold passar o paddingValues, que vai receber de outra função composable que vai estar dentro dele, pode ser linha ou coluna, é isso que vai fazer a coluna ficar posicionada dentro do Scaffold.</li>
 </ol>
+
+## Box
+<ol>
+    <li>Ao utilizarmos o box, se passarmos o parametro content não é necessário usar chaves a frente de seus parenteses para passar conteudo.</li>
+        Box(<br>
+            content = { <br>
+                } <br>
+            )
+    <li>Os elementos que estão dentro do box se estiverem na mesma posição vão ficar um por cima do outro.</li>
+    <li>Para usar o box como componente principal basta usar a função fillMaxSize().</li>
+</ol>
